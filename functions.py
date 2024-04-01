@@ -1,4 +1,4 @@
-def greet(n):
+def prime(n):
     prime = True
     if n==0 or n==1:
         print("Neither prime nor composite")
@@ -13,4 +13,4 @@ def greet(n):
         if prime:
             print("Prime Number")
 number = int(input("Enter number to check: "))
-greet(number)
+prime(number)
